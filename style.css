@@ -1,0 +1,98 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 14pt;
+    height: 100vh;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+nav {
+    background-color: #111;
+    height: 80px;
+    padding: 10px;
+    border-bottom: 6px solid maroon;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    max-width: 60em;
+    min-height: calc(100vh - 292px);
+    margin: auto;
+    padding: 40px 0px;
+}
+
+footer {
+    height: 80px;
+    background-color: #111;
+    border-top: 6px solid maroon;
+    padding: 10px;
+    font-size: 10pt;
+}
+
+#navlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navlinks ul {
+    display: inline;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navlinks ul li {
+    padding: 0px 10px;
+    line-height: 45px;
+    float: left;
+}
+
+#navlinks ul li a {
+    color: #aaa;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navlinks ul li a:hover, #navlinks ul li .active {
+    color: white;
+    text-decoration: underline;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.no-list-style {
+    list-style: none;
+}
+
+.thumbnail {
+    height: 250px;
+    box-shadow: 2px 2px 20px black;
+    background-color: black;
+}
+
+.thumbnail-list {
+    display: grid;
+    list-style: none;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+    padding: 0;
+}
