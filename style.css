@@ -40,6 +40,14 @@ footer {
     font-size: 10pt;
 }
 
+article {
+    width: 70%;
+    padding: 40px;
+    border: 2px solid maroon;
+    border-radius: 16px;
+    background-color: #333;
+}
+
 #navlinks {
     display: flex;
     justify-content: center;
@@ -97,4 +105,15 @@ footer {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
+}
+
+.grid-3-cols {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
 }
