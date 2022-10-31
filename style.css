@@ -48,6 +48,51 @@ article {
     background-color: #333;
 }
 
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 400px;
+    margin: 12px;
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid #aaa;
+    border-radius: 40px;
+    font-size: large;
+    color: white;
+    font-family: inherit;
+}
+
+textarea {
+    width: 400px;
+    margin: 12px;
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid #aaa;
+    font-size: large;
+    color: white;
+    font-family: inherit;
+}
+
+#submit-btn {
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: large;
+    margin: 12px;
+}
+
+#submit-btn:hover {
+    cursor: pointer;
+    background-color: #400000;
+    color: #aaa;
+}
+
 #navlinks {
     display: flex;
     justify-content: center;

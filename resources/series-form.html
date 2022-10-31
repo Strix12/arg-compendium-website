@@ -16,28 +16,19 @@
                 <li><a href="../">Home</a></li>
                 <li><a href="../series/">Series</a></li>
                 <li><a href="../news/">News</a></li>                
-                <li><a href="../resources/" class="active">Resources</a></li>
+                <li><a href="../resources/">Resources</a></li>
             </ul>
         </div>
     </nav>
     <main>
-        <h1>Resources</h1>
-        <hr>
-        <div class="grid-3-cols">
-            <h3>
-                <a href="mailto:t.kotila2202@gmail.com">Email Me</a>
-            </h3>
-            <h3>
-                <a href="https://github.com/Strix12/arg-compendium-website" target="_blank" rel="noopener noreferrer">Source Code</a>
-            </h3>
-            <h3>
-                <a href="https://www.nightmind.info" target="_blank" rel="noopener noreferrer">Nightmind's Website</a>
-            </h3>
-            <span></span>
-            <h3>
-                <a href="./series-form.html">Submit a Series to be Covered</a>
-            </h3>
-        </div>
+        <form>
+            <h1 class="center-text">Submit a Series for Coverage</h1>
+            <input type="text" placeholder="Series Name">
+            <input type="text" placeholder="Link to series (if online)" pattern="https?://.+">
+            <input type="text" placeholder="Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <textarea cols="30" rows="10" placeholder="Additional Comments"></textarea>
+            <button id="submit-btn">Submit</button>
+        </form>
     </main>
     <footer>
         <p class="center-text">DISCLAIMER: THIS WEBSITE CONTAINS CONTENT THAT SOME MAY FIND DISTURBING. BROWSE AT YOUR OWN RISK.</p>
