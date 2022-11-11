@@ -152,6 +152,13 @@ textarea {
     font-size: x-large;
 }
 
+.thumbnail-list li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .grid-3-cols {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -161,4 +168,29 @@ textarea {
 .flex {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media screen and (max-width: 580px) {
+    main {
+        padding: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .thumbnail-list {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (min-width: 581px) {
+    main {
+        padding: 20px;
+        min-height: calc(100vh - 252px);
+    }
+
+    .thumbnail-list {
+        grid-template-columns: auto auto;
+    }
 }
