@@ -184,7 +184,7 @@ textarea {
     }
 }
 
-@media screen and (min-width: 581px) {
+@media screen and (min-width: 581px) and (max-width: 1439px) {
     main {
         padding: 20px;
         min-height: calc(100vh - 252px);
